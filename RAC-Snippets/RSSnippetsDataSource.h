@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+@class RSBaseDemoViewController;
 
-@interface RSSnippetsDataSource : NSObject
+@interface RSSnippetsDataSource : NSObject <UITableViewDataSource>
 
 @property (nonatomic, readonly) NSArray *snippets;
 
 + (instancetype)sharedInstance;
 
-- (void)addWithDescription:(NSString *)description class:(Class)class;
+- (void)addWithDescription:(NSString *)description demoClass:(Class)demoClass;
 @end

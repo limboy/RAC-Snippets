@@ -24,15 +24,39 @@
     return instance;
 }
 
-- (void)addWithDescription:(NSString *)description class:(Class)class
+- (void)addWithDescription:(NSString *)description demoClass:(Class)demoClass
 {
-    NSDictionary *snippet = @{@"description": description, @"class": class};
+    NSDictionary *snippet = NSDictionaryOfVariableBindings(description, demoClass);
     [self.mutableSnippets addObject:snippet];
 }
 
 - (NSArray *)snippets
 {
     return [self.mutableSnippets copy];
+}
+
+#pragma mark - Accessors
+
+- (NSMutableArray *)mutableSnippets
+{
+    if (!_mutableSnippets) {
+        _mutableSnippets = [[NSMutableArray alloc] init];
+    }
+    return _mutableSnippets;
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.snippets.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    cell.textLabel.text = self.snippets[indexPath.row][@"description"];
+    return cell;
 }
 
 @end

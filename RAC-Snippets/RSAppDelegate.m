@@ -7,6 +7,8 @@
 //
 
 #import "RSAppDelegate.h"
+#import "RSSnippetsViewController.h"
+#import <ReactiveCocoa.h>
 
 @implementation RSAppDelegate
 
@@ -16,6 +18,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    RSSnippetsViewController *snippetsViewController = [[RSSnippetsViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:snippetsViewController];
+    self.window.rootViewController = navigationController;
     return YES;
 }
 
