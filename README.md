@@ -6,6 +6,8 @@ if u find shit in code or want to add more snippets, please add an issue or PR, 
 
 PS: all snippets are based on ReactiveCocoa 2.
 
+PPS: pods are included in the project, so u don't need to `pod install`, just open RAC-Snippets.xcworkspace
+
 ## Index
 
 * Use `then` and `take`
