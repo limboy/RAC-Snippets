@@ -41,7 +41,9 @@
     self.refreshControl = refreshControl;
     
     // in some scenior, self.data is updated outside, so it is convenient to observe data change and reloadData
+    @weakify(self);
     [RACObserve(self, data) subscribeNext:^(id x) {
+        @strongify(self);
         [self.tableView reloadData];
     }];
 }
