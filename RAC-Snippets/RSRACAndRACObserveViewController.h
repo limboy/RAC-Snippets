@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RSRACObserveAndFlattenMapViewController : UIViewController
+@interface RSRACAndRACObserveViewController : UIViewController
 
 @end
