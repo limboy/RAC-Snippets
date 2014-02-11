@@ -17,3 +17,4 @@ PPS: pods are included in the project, so u don't need to `pod install`, just op
 * `RAC` and `RACObserve` and `map`
 * `RACCommand`
 * Use `tryMap`
+* Auto Fetch AccessToken
