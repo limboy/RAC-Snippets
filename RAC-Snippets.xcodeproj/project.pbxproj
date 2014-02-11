@@ -23,6 +23,7 @@
 		6A61797218A8AB4700EDC2DA /* RSSnippetsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61797118A8AB4700EDC2DA /* RSSnippetsDataSource.m */; };
 		6A61797C18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61797B18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m */; };
 		6A61798218A8C3C500EDC2DA /* RSSnippetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61798118A8C3C500EDC2DA /* RSSnippetsViewController.m */; };
+		6A61798818A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61798718A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		6A61797B18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRACCommandDemoViewController.m; sourceTree = "<group>"; };
 		6A61798018A8C3C500EDC2DA /* RSSnippetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSnippetsViewController.h; sourceTree = "<group>"; };
 		6A61798118A8C3C500EDC2DA /* RSSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSnippetsViewController.m; sourceTree = "<group>"; };
+		6A61798618A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRACObserveAndFlattenMapViewController.h; sourceTree = "<group>"; };
+		6A61798718A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRACObserveAndFlattenMapViewController.m; sourceTree = "<group>"; };
 		80F18DBC276944B19A6EBA02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,6 +184,7 @@
 		6A61798318A8C4A600EDC2DA /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				6A61798518A9B82300EDC2DA /* RACAndRACObserveAndMap */,
 				6A61797918A8C07500EDC2DA /* RACCommand */,
 			);
 			name = Demos;
@@ -195,6 +199,15 @@
 				6A61797118A8AB4700EDC2DA /* RSSnippetsDataSource.m */,
 			);
 			name = SnippetsList;
+			sourceTree = "<group>";
+		};
+		6A61798518A9B82300EDC2DA /* RACAndRACObserveAndMap */ = {
+			isa = PBXGroup;
+			children = (
+				6A61798618A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.h */,
+				6A61798718A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.m */,
+			);
+			name = RACAndRACObserveAndMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +344,7 @@
 				6A61794D18A8A5ED00EDC2DA /* main.m in Sources */,
 				6A61797218A8AB4700EDC2DA /* RSSnippetsDataSource.m in Sources */,
 				6A61798218A8C3C500EDC2DA /* RSSnippetsViewController.m in Sources */,
+				6A61798818A9B8B200EDC2DA /* RSRACObserveAndFlattenMapViewController.m in Sources */,
 				6A61797C18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m in Sources */,
 				6A61795118A8A5ED00EDC2DA /* RSAppDelegate.m in Sources */,
 			);
