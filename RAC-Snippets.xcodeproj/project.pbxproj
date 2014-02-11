@@ -28,6 +28,7 @@
 		6A61798F18A9D48200EDC2DA /* RSTakeUntilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61798E18A9D48200EDC2DA /* RSTakeUntilCell.m */; };
 		6A61799318A9F19B00EDC2DA /* RSReloadDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61799218A9F19B00EDC2DA /* RSReloadDataViewController.m */; };
 		6A61799A18A9FCC000EDC2DA /* RSNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61799918A9FCC000EDC2DA /* RSNotificationViewController.m */; };
+		6A61799E18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61799D18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		6A61799218A9F19B00EDC2DA /* RSReloadDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSReloadDataViewController.m; sourceTree = "<group>"; };
 		6A61799818A9FCC000EDC2DA /* RSNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSNotificationViewController.h; sourceTree = "<group>"; };
 		6A61799918A9FCC000EDC2DA /* RSNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSNotificationViewController.m; sourceTree = "<group>"; };
+		6A61799C18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUseThenAndTakeViewController.h; sourceTree = "<group>"; };
+		6A61799D18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUseThenAndTakeViewController.m; sourceTree = "<group>"; };
 		80F18DBC276944B19A6EBA02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -196,6 +199,7 @@
 		6A61798318A8C4A600EDC2DA /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				6A61799B18AA0C0000EDC2DA /* UseThenAndTake */,
 				6A61799418A9FC9900EDC2DA /* Notification */,
 				6A61799018A9F18500EDC2DA /* UITableViewReloadData */,
 				6A61798918A9D2B300EDC2DA /* TakeUntil */,
@@ -252,6 +256,15 @@
 				6A61799918A9FCC000EDC2DA /* RSNotificationViewController.m */,
 			);
 			name = Notification;
+			sourceTree = "<group>";
+		};
+		6A61799B18AA0C0000EDC2DA /* UseThenAndTake */ = {
+			isa = PBXGroup;
+			children = (
+				6A61799C18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.h */,
+				6A61799D18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m */,
+			);
+			name = UseThenAndTake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A61799E18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m in Sources */,
 				6A61799A18A9FCC000EDC2DA /* RSNotificationViewController.m in Sources */,
 				6A61794D18A8A5ED00EDC2DA /* main.m in Sources */,
 				6A61797218A8AB4700EDC2DA /* RSSnippetsDataSource.m in Sources */,
