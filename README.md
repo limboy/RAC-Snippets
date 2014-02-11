@@ -16,3 +16,4 @@ PPS: pods are included in the project, so u don't need to `pod install`, just op
 * Use `takeUntil`
 * `RAC` and `RACObserve` and `map`
 * `RACCommand`
+* Use `tryMap`
