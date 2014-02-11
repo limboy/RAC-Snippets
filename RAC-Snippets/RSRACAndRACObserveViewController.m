@@ -9,7 +9,6 @@
 #import "RSRACAndRACObserveViewController.h"
 #import "RSSnippetsDataSource.h"
 #import <AFNetworking.h>
-#import <ReactiveCocoa.h>
 
 @interface RSRACAndRACObserveViewController ()
 @property (nonatomic) UIImageView *imageView;

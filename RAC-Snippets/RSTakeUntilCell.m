@@ -7,7 +7,6 @@
 //
 
 #import "RSTakeUntilCell.h"
-#import <ReactiveCocoa.h>
 
 @interface RSTakeUntilCell ()
 @property (nonatomic, readwrite) UIButton *button;
