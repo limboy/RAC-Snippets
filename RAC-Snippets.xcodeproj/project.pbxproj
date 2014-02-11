@@ -30,6 +30,7 @@
 		6A61799A18A9FCC000EDC2DA /* RSNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61799918A9FCC000EDC2DA /* RSNotificationViewController.m */; };
 		6A61799E18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A61799D18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m */; };
 		6A617A0918AA238E00EDC2DA /* RSTryMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A617A0818AA238E00EDC2DA /* RSTryMapViewController.m */; };
+		6A617A0D18AA363000EDC2DA /* RSConcatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A617A0C18AA363000EDC2DA /* RSConcatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		6A61799D18AA0C1100EDC2DA /* RSUseThenAndTakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUseThenAndTakeViewController.m; sourceTree = "<group>"; };
 		6A617A0718AA238E00EDC2DA /* RSTryMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTryMapViewController.h; sourceTree = "<group>"; };
 		6A617A0818AA238E00EDC2DA /* RSTryMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTryMapViewController.m; sourceTree = "<group>"; };
+		6A617A0B18AA363000EDC2DA /* RSConcatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSConcatViewController.h; sourceTree = "<group>"; };
+		6A617A0C18AA363000EDC2DA /* RSConcatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSConcatViewController.m; sourceTree = "<group>"; };
 		80F18DBC276944B19A6EBA02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -202,6 +205,7 @@
 		6A61798318A8C4A600EDC2DA /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				6A617A0A18AA35EC00EDC2DA /* Concat */,
 				6A617A0618AA238300EDC2DA /* TryMap */,
 				6A61799B18AA0C0000EDC2DA /* UseThenAndTake */,
 				6A61799418A9FC9900EDC2DA /* Notification */,
@@ -278,6 +282,15 @@
 				6A617A0818AA238E00EDC2DA /* RSTryMapViewController.m */,
 			);
 			name = TryMap;
+			sourceTree = "<group>";
+		};
+		6A617A0A18AA35EC00EDC2DA /* Concat */ = {
+			isa = PBXGroup;
+			children = (
+				6A617A0B18AA363000EDC2DA /* RSConcatViewController.h */,
+				6A617A0C18AA363000EDC2DA /* RSConcatViewController.m */,
+			);
+			name = Concat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +435,7 @@
 				6A617A0918AA238E00EDC2DA /* RSTryMapViewController.m in Sources */,
 				6A61797C18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m in Sources */,
 				6A61795118A8A5ED00EDC2DA /* RSAppDelegate.m in Sources */,
+				6A617A0D18AA363000EDC2DA /* RSConcatViewController.m in Sources */,
 				6A61798C18A9D2C200EDC2DA /* RSTakeUntilViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
