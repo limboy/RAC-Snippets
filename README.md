@@ -19,3 +19,4 @@ PPS: pods are included in the project, so u don't need to `pod install`, just op
 * Use `tryMap`
 * Auto Fetch AccessToken
 * simple MVVM
+* Deal Multiple Errors
