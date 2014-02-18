@@ -1,3 +1,6 @@
 platform :ios, '6.0'
 pod 'AFNetworking', '~>2.1'
 pod 'ReactiveCocoa', '~>2.2'
+pod 'CHTCollectionViewWaterfallLayout'
+pod 'SDWebImage'
+pod 'SVPullToRefresh', '~> 0.4.1'

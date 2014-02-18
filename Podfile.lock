@@ -17,19 +17,30 @@ PODS:
   - AFNetworking/Serialization (2.1.0)
   - AFNetworking/UIKit (2.1.0):
     - AFNetworking/NSURLConnection
+  - CHTCollectionViewWaterfallLayout (0.6)
   - ReactiveCocoa (2.2.3):
     - ReactiveCocoa/Core
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/Core (2.2.3):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.2.3)
+  - SDWebImage (3.5.2):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5.2)
+  - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.1)
+  - CHTCollectionViewWaterfallLayout
   - ReactiveCocoa (~> 2.2)
+  - SDWebImage
+  - SVPullToRefresh (~> 0.4.1)
 
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
+  CHTCollectionViewWaterfallLayout: accc91bfcd82710e44025d48961b79473d84375a
   ReactiveCocoa: b3cb6ebd50f1a0f2e39c6fd7ce3c428b6efcb22b
+  SDWebImage: fe7ce01ae4e0a884d168f59c9dd82d35baf8429e
+  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
 
 COCOAPODS: 0.29.0
