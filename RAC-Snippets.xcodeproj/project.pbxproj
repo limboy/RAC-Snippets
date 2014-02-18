@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0257126466244F7E96EBBB16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F18DBC276944B19A6EBA02 /* libPods.a */; };
+		6A49772018B338BC006D149D /* RSWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49771F18B338BC006D149D /* RSWaterfallViewController.m */; };
 		6A61794118A8A5ED00EDC2DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A61794018A8A5ED00EDC2DA /* Foundation.framework */; };
 		6A61794318A8A5ED00EDC2DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A61794218A8A5ED00EDC2DA /* CoreGraphics.framework */; };
 		6A61794518A8A5ED00EDC2DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A61794418A8A5ED00EDC2DA /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		3F21F5CB4D964319B0B9DC3E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6A49771E18B338BC006D149D /* RSWaterfallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSWaterfallViewController.h; sourceTree = "<group>"; };
+		6A49771F18B338BC006D149D /* RSWaterfallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSWaterfallViewController.m; sourceTree = "<group>"; };
 		6A61793D18A8A5ED00EDC2DA /* RAC-Snippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC-Snippets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A61794018A8A5ED00EDC2DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A61794218A8A5ED00EDC2DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A49771D18B338A9006D149D /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				6A49771E18B338BC006D149D /* RSWaterfallViewController.h */,
+				6A49771F18B338BC006D149D /* RSWaterfallViewController.m */,
+			);
+			name = Waterfall;
+			sourceTree = "<group>";
+		};
 		6A61793418A8A5ED00EDC2DA = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +226,7 @@
 		6A61798318A8C4A600EDC2DA /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				6A49771D18B338A9006D149D /* Waterfall */,
 				6A617A3618AB649700EDC2DA /* DealMultipleErrors */,
 				6A617A0E18AB3CF500EDC2DA /* MVVM */,
 				6A617A0A18AA35EC00EDC2DA /* Concat */,
@@ -464,6 +477,7 @@
 				6A61798218A8C3C500EDC2DA /* RSSnippetsViewController.m in Sources */,
 				6A61799318A9F19B00EDC2DA /* RSReloadDataViewController.m in Sources */,
 				6A61798818A9B8B200EDC2DA /* RSRACAndRACObserveViewController.m in Sources */,
+				6A49772018B338BC006D149D /* RSWaterfallViewController.m in Sources */,
 				6A617A1418AB3D2400EDC2DA /* RSViewModel.m in Sources */,
 				6A617A0918AA238E00EDC2DA /* RSTryMapViewController.m in Sources */,
 				6A61797C18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m in Sources */,
