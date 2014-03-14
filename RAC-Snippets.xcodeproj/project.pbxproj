@@ -35,6 +35,7 @@
 		6A617A1118AB3D0700EDC2DA /* RSMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A617A1018AB3D0700EDC2DA /* RSMVVMViewController.m */; };
 		6A617A1418AB3D2400EDC2DA /* RSViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A617A1318AB3D2400EDC2DA /* RSViewModel.m */; };
 		6A617A3918AB64D800EDC2DA /* RSDealMultipleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A617A3818AB64D800EDC2DA /* RSDealMultipleViewController.m */; };
+		6AFF43E118D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF43E018D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		6A617A1318AB3D2400EDC2DA /* RSViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSViewModel.m; sourceTree = "<group>"; };
 		6A617A3718AB64D800EDC2DA /* RSDealMultipleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDealMultipleViewController.h; sourceTree = "<group>"; };
 		6A617A3818AB64D800EDC2DA /* RSDealMultipleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDealMultipleViewController.m; sourceTree = "<group>"; };
+		6AFF43DF18D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRepeatAfterTimeIntervalViewController.h; sourceTree = "<group>"; };
+		6AFF43E018D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRepeatAfterTimeIntervalViewController.m; sourceTree = "<group>"; };
 		80F18DBC276944B19A6EBA02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -226,6 +229,7 @@
 		6A61798318A8C4A600EDC2DA /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				6AFF43DE18D2A58000C0A828 /* RepeatAfterTimeInterval */,
 				6A49771D18B338A9006D149D /* Waterfall */,
 				6A617A3618AB649700EDC2DA /* DealMultipleErrors */,
 				6A617A0E18AB3CF500EDC2DA /* MVVM */,
@@ -335,6 +339,15 @@
 				6A617A3818AB64D800EDC2DA /* RSDealMultipleViewController.m */,
 			);
 			name = DealMultipleErrors;
+			sourceTree = "<group>";
+		};
+		6AFF43DE18D2A58000C0A828 /* RepeatAfterTimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				6AFF43DF18D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.h */,
+				6AFF43E018D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.m */,
+			);
+			name = RepeatAfterTimeInterval;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +492,7 @@
 				6A61798818A9B8B200EDC2DA /* RSRACAndRACObserveViewController.m in Sources */,
 				6A49772018B338BC006D149D /* RSWaterfallViewController.m in Sources */,
 				6A617A1418AB3D2400EDC2DA /* RSViewModel.m in Sources */,
+				6AFF43E118D2A5B000C0A828 /* RSRepeatAfterTimeIntervalViewController.m in Sources */,
 				6A617A0918AA238E00EDC2DA /* RSTryMapViewController.m in Sources */,
 				6A61797C18A8C08B00EDC2DA /* RSRACCommandDemoViewController.m in Sources */,
 				6A61795118A8A5ED00EDC2DA /* RSAppDelegate.m in Sources */,

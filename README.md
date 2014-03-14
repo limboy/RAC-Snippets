@@ -21,3 +21,4 @@ PPS: pods are included in the project, so u don't need to `pod install`, just op
 * simple MVVM
 * Deal Multiple Errors
 * Waterfall 
+* Repeat After TimeInterval
